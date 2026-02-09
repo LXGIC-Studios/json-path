@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/json-path",
+  "version": "1.0.0",
+  "description": "Query JSON files using JSONPath expressions from the command line. Filter arrays, count matches, export to CSV. Zero dependencies.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "json-path": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "jsonpath",
+    "query",
+    "cli",
+    "filter",
+    "jq",
+    "csv",
+    "extract",
+    "search",
+    "parse",
+    "pipe",
+    "stdin",
+    "data",
+    "transform"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/json-path"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
